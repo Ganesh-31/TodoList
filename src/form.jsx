@@ -4,8 +4,7 @@ import axios from "axios";
 export function Form (){
     const [form, setForm] = useState({
         title: "",
-        description:"", 
-        completed: false
+        description: "",
     });
 
     const [todoList, setToDoList] = useState([]);
